@@ -7,3 +7,13 @@ pr:
       target_project: home:pdostal:releases
   filters:
     event: pull_request
+master:
+  steps:
+    - rebuild_package:
+        project: home:pdostal
+        package: helloworldpackage
+  filters:
+    event: push
+    branches:
+      only:
+        - master
