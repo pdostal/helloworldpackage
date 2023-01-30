@@ -1,5 +1,8 @@
 # Changelog
 
+## helloworlpackage v0.1.3
+ * Add `exit 0` to the bash script
+
 ## helloworldpackage v0.1.2
  * Branch the package every time pull request changes
  * Rebuild the package every time master changes
