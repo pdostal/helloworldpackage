@@ -9,7 +9,7 @@ pr:
     event: pull_request
 master:
   steps:
-  - rebuild_package:
+  - trigger_services:
       project: home:pdostal
       package: helloworldpackage
   filters:
