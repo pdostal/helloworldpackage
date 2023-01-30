@@ -1,5 +1,9 @@
 # Changelog
 
+## helloworldpackage v0.1.2
+ * Branch the package every time pull request changes
+ * Rebuild the package every time master changes
+
 ## helloworldpackage v0.1.1
  * Change the shebang
 
