@@ -9,11 +9,11 @@ pr:
     event: pull_request
 master:
   steps:
-    - rebuild_package:
-        project: home:pdostal
-        package: helloworldpackage
+  - rebuild_package:
+      project: home:pdostal
+      package: helloworldpackage
   filters:
     event: push
     branches:
       only:
-        - master
+      - master
