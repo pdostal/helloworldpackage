@@ -1,0 +1,7 @@
+---
+pr:
+  steps:
+    - branch_package:
+        source_project: home:pdostal
+        source_package: helloworldpackage
+        target_project: home:pdostal:releases
