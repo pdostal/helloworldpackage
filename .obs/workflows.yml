@@ -9,10 +9,9 @@ pr:
     event: pull_request
 master:
   steps:
+  # Build will start automatically
+  #   after the service is retriggered
   - trigger_services:
-      project: home:pdostal
-      package: helloworldpackage
-  - rebuild_package:
       project: home:pdostal
       package: helloworldpackage
   filters:
