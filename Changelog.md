@@ -1,5 +1,8 @@
 # Changelog
 
+## helloworlpackage v0.1.4
+ * Just some nitpicks
+
 ## helloworlpackage v0.1.3
  * Add `exit 0` to the bash script
 
